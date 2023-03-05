@@ -2,6 +2,7 @@
 name = "rvtf"
 authors = ["Daxanius"]
 description = "Rust-VTF is a command-line tool for cross-platform image format conversion, with support for Valve's VTF format."
+repository = "https://github.com/Daxanius/rvtf"
 license = "MIT OR Apache-2.0"
 version = "1.0.0"
 edition = "2021"
