@@ -1,0 +1,16 @@
+[package]
+name = "rvtf"
+authors = ["Daxanius"]
+description = "Rust-VTF is a command-line tool for cross-platform image format conversion, with support for Valve's VTF format."
+license = "MIT OR Apache-2.0"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+vtflib = { version = "0.2.1", features = ["static"] }
+clap = { version = "4.1.8", features = ["derive"] }
+walkdir = "2.3.2"
+image = "0.23.14"
+vtf = "0.1.5"
